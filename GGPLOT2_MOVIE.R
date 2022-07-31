@@ -1,3 +1,5 @@
+#histogram ggplot2
+
 O<-ggplot(data=movies, aes(x=Budgetmillion))
 h<-O+geom_histogram(binwidth=10, aes(fill=Genre), color="Black")
 
